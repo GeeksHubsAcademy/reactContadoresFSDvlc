@@ -1,0 +1,39 @@
+
+
+.designContador {
+    display: flex;
+    flex-direction: row;
+}
+
+.designClicker {
+    height: 4em;
+    width: 4em;
+
+    background-color: grey;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+}
+
+.designCifra {
+    height: 4em;
+    width: 4em;
+    display: flex;
+    
+    justify-content: center;
+    place-items: center;
+
+}
+
+.designClicker:hover{
+    background-color: lightgrey;
+}
+
+.colorMas {
+    color: green;
+}
+
+.colorMenos {
+    color: red;
+}
